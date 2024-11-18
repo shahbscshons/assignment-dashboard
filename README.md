@@ -64,3 +64,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Database Setup
+1. Import the SQL file into your MySQL database:
+   - Open phpMyAdmin, click "Import," and select the file `database/assignment_dashboard.sql`.
+   - Alternatively, use the MySQL command:
+     ```
+     mysql -u your_username -p database_name < database/assignment_dashboard.sql
+     ```
+2. Update the `.env` file in the project directory with your database credentials:
+
